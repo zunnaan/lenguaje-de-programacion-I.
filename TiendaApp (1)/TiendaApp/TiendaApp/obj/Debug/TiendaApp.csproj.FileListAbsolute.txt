@@ -1,0 +1,7 @@
+C:\Users\kevin\Downloads\TiendaApp (1)\TiendaApp\TiendaApp\bin\Debug\TiendaApp.exe.config
+C:\Users\kevin\Downloads\TiendaApp (1)\TiendaApp\TiendaApp\bin\Debug\TiendaApp.exe
+C:\Users\kevin\Downloads\TiendaApp (1)\TiendaApp\TiendaApp\bin\Debug\TiendaApp.pdb
+C:\Users\kevin\Downloads\TiendaApp (1)\TiendaApp\TiendaApp\obj\Debug\TiendaApp.csproj.AssemblyReference.cache
+C:\Users\kevin\Downloads\TiendaApp (1)\TiendaApp\TiendaApp\obj\Debug\TiendaApp.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Downloads\TiendaApp (1)\TiendaApp\TiendaApp\obj\Debug\TiendaApp.exe
+C:\Users\kevin\Downloads\TiendaApp (1)\TiendaApp\TiendaApp\obj\Debug\TiendaApp.pdb

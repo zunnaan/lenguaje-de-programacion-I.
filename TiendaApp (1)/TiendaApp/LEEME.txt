@@ -1,0 +1,44 @@
+TIENDAAPP - Administracion y facturacion (Windows Forms, C#, SQL Server)
+=======================================================================
+
+INSTALACION (3 pasos)
+1. Abre tienda_db.sql en SSMS y ejecutalo (F5). Crea la base tienda_db con todas las tablas y datos de prueba.
+   Se puede volver a ejecutar sin perder datos (tambien actualiza una base creada con la version anterior).
+2. Abre TiendaApp.sln en Visual Studio (.NET Framework 4.8 + workload "Desarrollo de escritorio .NET").
+3. En TiendaApp\App.config cambia SOLO el valor de Server en la cadena de conexion:
+      .\SQLEXPRESS            (SQL Server Express - valor por defecto)
+      localhost               (instancia por defecto)
+      (localdb)\MSSQLLocalDB  (LocalDB de Visual Studio)
+   Despues presiona F5 para ejecutar.
+
+USUARIOS DE PRUEBA (cambia las contrasenas al entregar)
+   admin           / admin123   -> Administrador (todos los modulos)
+   cajero.manana   / caja123    -> Cajero, turno Manana
+   cajero.tarde    / caja123    -> Cajero, turno Tarde
+   cajero.noche    / caja123    -> Cajero, turno Noche
+
+PERMISOS
+   Administrador: Nueva venta, Usuarios y cajeros, Productos/inventario, Clientes, Reportes.
+   Cajero: solo Nueva venta (facturacion de su turno). Los demas modulos no aparecen y, si se abrieran, se cierran solos.
+
+FACTURACION
+   - Numero de 5 digitos desde 00001, sin saltos (si falla el guardado no se consume el numero).
+   - Contado: pide monto pagado y calcula la devuelta. Credito: exige cliente y registra la cuenta por cobrar.
+   - El stock se descuenta al guardar la factura (todo en una sola transaccion).
+   - F5 (o el boton FACTURAR): finaliza la venta y genera Factura_00001.txt en
+     Documentos\TiendaApp\Facturas (cambiable con CarpetaFacturas en App.config).
+     Con VistaPreviaAlFacturar = true tambien abre la vista previa para imprimir en papel.
+
+APP.CONFIG (appSettings)
+   NombreTienda          titulo de la factura
+   ValidarTurnoPorHora   true = el cajero solo entra en el horario de su turno
+                         (Manana 6-14, Tarde 14-22, Noche 22-6); false = cualquier hora
+   CarpetaFacturas       carpeta de los .txt (vacio = Documentos\TiendaApp\Facturas)
+   VistaPreviaAlFacturar true/false
+
+ESTRUCTURA
+   Modelo\   Usuario, Producto, Persona (clientes), Factura / FacturaDetalle
+   Dato\     Conexion, UsuarioDAO, ProductoDAO, PersonaDAO, FacturaDAO, ReporteDAO
+   Formularios: FrmLogin, FrmMenu, FrmFacturacion, FrmPago, FrmUsuarios, FrmProductos, Form1 (Clientes), FrmReportes
+   Base de datos: usuario, cajero (vista de usuario con rol Cajero), producto, persona, secuencia,
+                  factura, factura_detalle, cuenta_por_cobrar
