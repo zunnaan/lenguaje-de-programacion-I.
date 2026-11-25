@@ -1,0 +1,14 @@
+C:\Users\kevin\Downloads\TallerPOO_Parte04_corregido\TallerPOO_Parte04\bin\Debug\net10.0\TallerPOO_Parte04.exe
+C:\Users\kevin\Downloads\TallerPOO_Parte04_corregido\TallerPOO_Parte04\bin\Debug\net10.0\TallerPOO_Parte04.deps.json
+C:\Users\kevin\Downloads\TallerPOO_Parte04_corregido\TallerPOO_Parte04\bin\Debug\net10.0\TallerPOO_Parte04.runtimeconfig.json
+C:\Users\kevin\Downloads\TallerPOO_Parte04_corregido\TallerPOO_Parte04\bin\Debug\net10.0\TallerPOO_Parte04.dll
+C:\Users\kevin\Downloads\TallerPOO_Parte04_corregido\TallerPOO_Parte04\bin\Debug\net10.0\TallerPOO_Parte04.pdb
+C:\Users\kevin\Downloads\TallerPOO_Parte04_corregido\TallerPOO_Parte04\obj\Debug\net10.0\TallerPOO_Parte04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kevin\Downloads\TallerPOO_Parte04_corregido\TallerPOO_Parte04\obj\Debug\net10.0\TallerPOO_Parte04.AssemblyInfoInputs.cache
+C:\Users\kevin\Downloads\TallerPOO_Parte04_corregido\TallerPOO_Parte04\obj\Debug\net10.0\TallerPOO_Parte04.AssemblyInfo.cs
+C:\Users\kevin\Downloads\TallerPOO_Parte04_corregido\TallerPOO_Parte04\obj\Debug\net10.0\TallerPOO_Parte04.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Downloads\TallerPOO_Parte04_corregido\TallerPOO_Parte04\obj\Debug\net10.0\TallerPOO_Parte04.dll
+C:\Users\kevin\Downloads\TallerPOO_Parte04_corregido\TallerPOO_Parte04\obj\Debug\net10.0\refint\TallerPOO_Parte04.dll
+C:\Users\kevin\Downloads\TallerPOO_Parte04_corregido\TallerPOO_Parte04\obj\Debug\net10.0\TallerPOO_Parte04.pdb
+C:\Users\kevin\Downloads\TallerPOO_Parte04_corregido\TallerPOO_Parte04\obj\Debug\net10.0\TallerPOO_Parte04.genruntimeconfig.cache
+C:\Users\kevin\Downloads\TallerPOO_Parte04_corregido\TallerPOO_Parte04\obj\Debug\net10.0\ref\TallerPOO_Parte04.dll
